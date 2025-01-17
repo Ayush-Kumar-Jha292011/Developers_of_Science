@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chemistry: Periodic Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Chemistry: Periodic Table</h1>
+  </header>
+
+  <main>
+    <section id="study-material">
+      <h2>Study Material</h2>
+      <p>The periodic table organizes elements based on their properties. Key concepts include:</p>
+      <ul>
+        <li>Groups: Vertical columns with similar chemical properties.</li>
+        <li>Periods: Horizontal rows indicating energy levels.</li>
+        <li>Metals, Non-metals, and Metalloids: Different classifications based on properties.</li>
+      </ul>
+    </section>
+
+    <section id="quiz">
+      <h2>Quiz</h2>
+      <form id="quiz-form">
+        <div class="question">
+          <p>1. What is the periodic table primarily organized by?</p>
+          <input type="radio" name="q1" value="correct"> Atomic number.<br>
+          <input type="radio" name="q1" value="wrong"> Atomic mass.<br>
+          <input type="radio" name="q1" value="wrong"> Density.<br>
+        </div>
+        <div class="question">
+          <p>2. Which group contains the noble gases?</p>
+          <input type="radio" name="q2" value="correct"> Group 18.<br>
+          <input type="radio" name="q2" value="wrong"> Group 1.<br>
+          <input type="radio" name="q2" value="wrong"> Group 7.<br>
+        </div>
+        <!-- Add more questions -->
+        <button type="button" onclick="submitQuiz()">Submit</button>
+      </form>
+      <p id="quiz-result"></p>
+    </section>
+  </main>
+<a href="index.html" class="back-button">
+  &#8592; <span>Home</span>
+</a>
+  <footer>
+    <p>&copy; 2025 Developers of Science. All rights reserved. Made by Ayush Kumar Jha, MYP-4C, Roll no. -32.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
